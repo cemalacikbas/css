@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Page</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <main>
+        <!-- Hepsi yuvarlak oldugu icin round class tan, spesifik ozellikleri icin id den aliyorlar. 
+            Burasi dis taraf icin hazirlanan alan. -->
+        <section>
+            <div class="round" id="round1"></div>
+            <div class="round" id="round2"></div>
+            <div class="round" id="round3"></div>
+            <div class="round" id="round4"></div>
+        </section>
+        <!-- Icerige buradan basliyoruz. -->
+        <section id="main">
+            <header>
+                <!-- Ic tarafta bulunan yuvarlaklari olusturuyoruz. Bir oncekinde oldugu gibi
+                     ortak ozellikleri class tan, spesifik olanlari kendi id sinden aliyorlar-->
+                <section clas="background-main">
+                    <div class="round" id="round5"></div>
+                    <div class="round" id="round6"></div>
+                    <div class="round" id="round7"></div>
+                </section>
+                <!-- Profil alaninin en ustu icin baslangic noktasi burasi.  
+                     Text olarak eklenebilen ozellikler goruntu acisindan daha iyi bir sonuc
+                     olusturacagi dusunulerek image olarak eklendi. -->
+                <div id="button-main">
+                    <button type="button"><img src="./icons/r-arrow.png"
+                            alt="Reverse arrow"></button>
+                    <button type="button"><img src="./icons/threedots.png"
+                            alt="back"></button>
+                </div>
+            </header>
+            <section id="main-content">
+                <!-- Kisisel bilgilerin bulundugu alanda ise yine fotograf, kullanici adi, soyadi, meslegi
+                     sosyal medya hesaplari gibi bilgiler eklendi. -->
+                <section id="user-main">
+                    <section id="profile-main">
+                        <img id="profile-pic" src="./images/image.jpg" alt="Profile Picture">
+                        <img id="add-pic" src="./icons/photo.png" alt="Profil Picture">
+                    </section>
+                    <section id="info">
+                        <p id="name">Gaurav K</p>
+                        <p id="prof">Visual designer</p>
+                        <section class="social">
+                            <a href="https://dribbble.com/"><img class="social-icons" src="./icons/dribbble.png" alt="Dribbble"></a>
+                            <a href="https://www.facebook.com/"><img class="social-icons" src="./icons/facebook.png" alt="Facebook"></a>
+                            <a href="https://twitter.com/"><img class="social-icons" src="./icons/twitter.png" alt="Twitter"></a>
+                            <a href="https://www.behance.net/"><img class="social-icons" src="./icons/behance.png" alt="Behance"></a>
+                            
+                            <button class="button-normal" type="button"></button>
+                        </section>
+                        <p id="resume">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </section>
+                </section>
+                <!-- Account Settings alaninda oklar ayni ozelliklere sahip oldugundan
+                     class ile cagriliyor. Buton olusturularak icerisinden image ozelligi ile
+                     resim uzerinde aktif hale getiriliyor. -->
+                <h4>ACCOUNT SETTINGS</h4>
+                <section id="personal">
+                    <button class="personal-button">
+                        <img class="personal-item" src="./icons/mail.png" alt="Mail">
+                        Update e-mail address
+                        <img class="header-icon" src="./icons/arrow.png" alt="Arrow">
+                    </button>
+                    <button class="personal-button">
+                        <img class="personal-item" src="./icons/pass.png" alt="Password">
+                        Reset password
+                        <img class="header-icon" src="./icons/arrow.png" alt="Arrow">
+                    </button>
+                    <button class="personal-button">
+                        <img class="personal-item" src="./icons/update.png" alt="Update">
+                        Update my details
+                        <img class="header-icon" src="./icons/arrow.png" alt="Arrow">
+                    </button>
+                    <button class="personal-button">
+                        <img class="personal-item" src="./icons/logout.png" alt="Logout">
+                        Logout
+                        <img class="header-icon" src="./icons/arrow.png" alt="Arrow">
+                    </button>
+                </section>
+                <h4>PRIVACY SETTINGS</h4>
+            </section>
+            <footer>
+                <button class="button-normal" type="button"><img class="footer-pic" src="./icons/copied.png"
+                        alt="Files"></button>
+                <button class="button-normal" type="button"><img class="footer-pic" src="./icons/search.png"
+                        alt="Search"></button>
+                <button class="button-normal" type="button"><img class="footer-pic" src="./icons/speech.png"
+                        alt="Messages"></button>
+                <button class="button-normal" type="button"><img class="footer-pic" src="./icons/user.png"
+                        alt="User Settings"></button>
+            </footer>
+        </section>
+        <!-- Mumkun oldugunca semantik taglara oncelik verildi ve semantik ozellik tasimayan etiketler
+             minimum seviyede kullanilmaya calisildi. -->
+    </main>
+</body>
+
+</html>
