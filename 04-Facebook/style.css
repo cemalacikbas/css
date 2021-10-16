@@ -1,0 +1,139 @@
+#section-main{
+    background-color: #f0f2f5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 220px;
+}
+.section-logo-name{
+    font-family: "lucida grande",tahoma,verdana,arial,sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    color: #1877F2;
+}
+#container{
+    border: none;
+    padding: 0px;
+    margin: 0px;
+}
+#section-logo{
+    float: left;
+    margin: 70px;
+    }
+.section-logo-content{
+    font-family: "lucida grande",tahoma,verdana,arial,sans-serif;
+    font-size: 25px;
+    word-wrap: break-word;
+    width: 600px;
+}
+.section-login{
+    border: 2px;
+    border-color: rgb(196, 194, 194);
+    background-color: #f0f2f5;
+    padding: 10px;
+    border-radius: 5px;
+}
+#section-loginbox{
+    background-color:white;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    box-sizing: border-box;
+    margin: 40px 0 0;
+    padding: 20px 0 28px;
+    width: 396px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#button01{
+    width:372px;
+	height:50px;
+	background: #1877F2;
+	padding:10px;
+	font-size:20px;
+    font-weight: bold;
+   	margin-top:8px;
+	border-width: 1px;
+	border-style:solid;
+	}
+#button02{
+    width:210px;
+    height:50px;
+    border: none;
+    background: #42B72A;
+    padding:10px;
+    font-size:17px;
+    font-weight: bold;
+    margin-top:8px;
+    }
+.textbox-content{
+	width:350px;
+	height:28px;
+	border-radius:5px 5px 5px 5px;
+	background:white;
+	padding:10px;
+	font-size:18px;
+	margin-top:8px;
+	border-width: 1px;
+	border-style:solid;
+	border-color: rgb(196, 194, 194);
+    }
+#password-link{
+    font-size:13px;
+	margin-top:8px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+section > a{
+    text-decoration: none;
+}
+section > hr {
+    height: 1px;
+    background-color: #c1c2c4;
+    border: none;
+    width: 370px;
+}
+footer > hr {
+    height: 1px;
+    background-color: #c1c2c4;
+    border: none;
+    margin-left: 150px;
+}
+#link2{
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+#section-registration{
+    font-size:14px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+}
+footer>section{
+    font-size:12px;
+    color: #737373;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    margin-left: 150px;
+    direction: ltr;
+    word-spacing: 20px;
+}
+a:hover{
+    text-decoration: underline black;
+}
+#link2:hover{
+    text-decoration: underline black;
+}
+.textbox-content:hover{
+    border-color: blue;
+}
+section.footer1, section.footer2{
+    font-size:12px;
+    color: #737373;
+    font-family: Arial, Helvetica, sans-serif;
+}
+input.cbutton1,input.cbutton2{
+    border-radius:5px;
+    color: white;
+}
