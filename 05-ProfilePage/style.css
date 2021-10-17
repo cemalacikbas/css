@@ -1,0 +1,126 @@
+
+/* All properties of nav's*/
+.navbar{
+    background-color: rgb(193, 193, 206);
+    margin: 10px;
+    border-radius: 5px;
+}
+.navmenus{
+    width: 100px;
+    height: 30px;
+    background-color: rgb(35, 101, 163);
+    color:white;
+    margin: 10px;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+a:link{text-decoration:none;
+}
+a:visited{
+    background-color: rgb(35, 101, 163);
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+.navbar,.navmenus{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.navmenus:hover{
+    background-color: rgb(39, 143, 240);
+    box-shadow: 3px 1px 10px 1px black;
+}
+nav a{
+    text-decoration: none;
+}
+/* All properties of aside's*/
+#asidebar{
+    width: 250px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    flex: 50vh;
+    float: left;
+}
+#image{
+    width: 100px;
+    height: 150px;
+    border-radius: 3px;
+    box-shadow: 3px 1px 10px 1px black;
+    margin: 10px;
+}
+.aside-text-captions{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+#asidebar, #image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ul1{
+    list-style-type: none;
+}
+.ul2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+.ul1, .ul2{
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+div > img{
+    border-radius: 3px;
+    box-shadow: 3px 1px 10px 1px black;
+}
+/* All properties of main's*/
+#main{
+    background-color: rgb(193, 193, 206);
+    margin-right: 10px;
+    display: flex;
+}
+#main-index{
+    background-color: rgb(193, 193, 206);
+    margin-right: 10px;
+    display: flex;
+    padding-top: 60px;
+}
+.background-all{
+    background-color: rgb(193, 193, 206);
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+.sections-caption{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+.sections-ul1{
+    list-style-type: none;
+    padding-top: 90px;
+}
+.sections-ul2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+.sections-ul3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+.sections-ul4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: 14px;
+}
+div > ul {
+    list-style-type: none;
+}
+div hr{
+    color: rgb(170, 166, 166);
+}
